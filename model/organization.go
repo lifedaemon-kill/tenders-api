@@ -10,7 +10,7 @@ const (
 	JSC
 )
 
-type organization struct {
+type Organization struct {
 	Id               int64  `json:"id" db:"id"`
 	Name             string `json:"name" db:"name"`
 	Description      string `json:"description" db:"description"`
